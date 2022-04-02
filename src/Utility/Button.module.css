@@ -1,0 +1,26 @@
+.btn{
+    padding: .6rem 1.5rem;
+    outline: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 2rem;
+    background: rgb(231,161,31);
+    background: linear-gradient(180deg, rgba(231,161,31,1) 0%, rgba(226,105,40,1) 35%, rgba(247,177,154,1) 100%);
+    color: white;
+    letter-spacing: 2px;
+}
+
+@media screen and (max-width: 800px ) {
+    .btn{
+        padding: .5rem 1rem;
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width: 680px ) {
+    .btn{
+        padding: .5rem 1rem;
+        /* font-size: .5rem; */
+    }
+}

@@ -1,0 +1,5 @@
+font-family: 'Lato', sans-serif;
+font-family: 'Lobster Two', cursive;
+
+background: rgb(231,161,31);
+background: linear-gradient(180deg, rgba(231,161,31,1) 0%, rgba(226,105,40,1) 35%, rgba(247,177,154,1) 100%);

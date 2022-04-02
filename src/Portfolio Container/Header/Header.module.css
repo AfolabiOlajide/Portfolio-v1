@@ -1,0 +1,70 @@
+.head{
+    width: 100%;
+    position: relative;
+}
+
+.design{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* background: black; */
+    height: 70vh;
+}
+
+.circle1{
+    position: absolute;
+    top: 10%;
+    left: -5%;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    background-color: rgba(108, 76, 114, 0.5);
+}
+.circle2{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    background-color: rgba(86, 202, 202, .7);
+}
+.circle3{
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    background-color: rgba(223, 84, 114, 0.7);
+}
+
+.header{
+    /* height: 70vh; */
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 15%;
+    width: 100%;
+    background: rgba(113,228,198,.2);
+    /* background: linear-gradient(126deg, rgba(113,228,198,.2) 0%, rgba(115,232,199,.2) 50%, rgba(148,236,178,.2) 100%); */
+    backdrop-filter: blur(3rem);
+}
+
+@media screen and (max-width: 1000px ){
+    .header{
+        padding-top: 20%;
+    }
+
+    .design{
+        height: 40vh;
+    }
+}
+
+@media screen and (max-width: 680px ){
+    .header{
+        padding-top: 30%;
+    }
+}
