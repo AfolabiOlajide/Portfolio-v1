@@ -1,6 +1,7 @@
 .head{
-    width: 100%;
+    width: 100vw;
     position: relative;
+    
 }
 
 .design{
@@ -8,7 +9,6 @@
     top: 0;
     left: 0;
     width: 100%;
-    /* background: black; */
     height: 70vh;
 }
 
@@ -16,8 +16,10 @@
     position: absolute;
     top: 10%;
     left: -5%;
-    width: 20rem;
-    height: 20rem;
+    width: 20%;
+    height: 50%;
+    /* width: 20rem;
+    height: 20rem; */
     border-radius: 50%;
     background-color: rgba(108, 76, 114, 0.5);
 }
@@ -25,8 +27,10 @@
     position: absolute;
     top: 70%;
     left: 50%;
-    width: 10rem;
-    height: 10rem;
+    width: 15%;
+    height: 40%;
+    /* width: 10rem;
+    height: 10rem; */
     border-radius: 50%;
     background-color: rgba(86, 202, 202, .7);
 }
@@ -34,8 +38,10 @@
     position: absolute;
     top: 30%;
     right: 10%;
-    width: 20rem;
-    height: 20rem;
+    width: 25%;
+    height: 70%;
+    /* width: 20rem;
+    height: 20rem; */
     border-radius: 50%;
     background-color: rgba(223, 84, 114, 0.7);
 }
